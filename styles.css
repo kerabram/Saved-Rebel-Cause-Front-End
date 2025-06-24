@@ -287,4 +287,60 @@ background-color: rgba(0, 0, 0, 0.25);
  }
 
  /* 5-About Us Page */
-   
+
+ .aboutus-hero  {
+    padding: 4rem 1rem 2rem;
+    background-color: #53b9de;
+    color: #afceda;
+    text-align: center;
+ }
+ .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+ }
+ .hero-subtitle {
+    font-size: 1.2rem;
+    color: #007bff;
+ }
+
+ .info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+ }
+
+ .info-card {
+    background-color: rgba(0, 0, 0, 0.05) ;
+    border-radius: 15px;
+    padding: 1.5rem;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+ }
+.info-card h2 {
+    font-size: 1.3rem;
+    color: #0f2e4e;
+    margin-bottom: 0.75rem;
+}
+.info-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.full-w-info-card {
+    padding: 2rem;
+    background-color: rgba(201, 218, 235, 0.1);
+    margin-bottom: 1rem;
+}
+
+.full-w-info-card h2 {
+    font-size: 1.5rem;
+    color: #627e9a;
+     margin-bottom: 1rem;
+}
+.full-w-info-card p {
+    font-size: 1rem;
+    color: #333;
+}
