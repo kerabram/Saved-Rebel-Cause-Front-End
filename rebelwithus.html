@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="/styles.css"/>
     <script defer src="/scripts.js"></script>
   </head>
-  <body>
+  <header>
+  <nav class="navbar">
+        <ul class="nav-left">
+          <li><a class="nav-btn" href="pages/aboutus.html">About Us</a></li>
+        </ul>
+        <ul class="nav-right">
+          <li><a class="nav-btn" href="pages/rebellogin.html">Rebel Login</a></li>
+        </ul>
+      </nav>
+  </header>
+  <body class="rebelwithus-page">
     <div class="signup-container">
       <div class="title">Rebel With US</div>
       <form>
@@ -39,16 +49,12 @@
           <input type="email" placeholder="Email" />
         </div>
         <div class="form-row">
-          <label for="location">Work Coverage Area</label>
+          <label for="area">Work Coverage Area</label>
           <input type="text" placeholder="City, State"/>
         </div>
         <div class="form-row">
           <label for="password">Password</label>
           <input type="password" placeholder="Password"/>
-        </div>
-        <div class="form-row">
-          <label for="confirmpass">Confirm Password</label>
-          <input type="password" placeholder="Confirm Password"/>
         </div>
           <button type="submit">Create Account</button>
            <div class="alt-link">
@@ -57,4 +63,11 @@
       </form>
     </div>
   </body>
+  <footer class="main-footer">
+  <ul class="footer-container">
+  <li>© 2025 Rebel Cause.</li>
+  <li>Contact Us: 
+    <a href="mailto:admin@rebelcause.org">admin@rebelcause.org</a></li>
+</ul>
+</footer>
 </html>

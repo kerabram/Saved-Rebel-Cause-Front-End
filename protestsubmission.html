@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/styles.css">
+    <script defer src="scripts.js"></script>
+    <title>Submit Protest Info </title>
+</head>
+<body class="protestsumbmission-page">
+    <header>
+        <nav class="navbar">
+        <ul class="nav-left">
+          <li><a class="nav-btn" href="#">Dashboard</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+<section class="submit-hero" >
+    <h1> Submit Protest Information</h1>
+    <p> Help us populate the map with real-time updates and support resistance movements across the U.S.</p>
+</section>
+<section class="submit-container">
+    <form class="protest-form">
+        <label for="loactaion"> Location of Protest</label>
+        <input type="text" id="location" name="location" placeholder="city, state">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time </label>
+        <input type="time" id="time" name="time" placeholder="12:00 EST/PST" required>
+        <label for="descrptition">Brief Description</label>
+        <textarea id="descrptition" name="description" rows="4" required></textarea>
+        <button type="submit">Submit Protest Info</button>
+    </form>
+</section>
+    </main>
+<footer class="main-footer">
+  <ul class="footer-container">
+  <li>© 2025 Rebel Cause.</li>
+  <li>Contact Us: 
+    <a href="mailto:admin@rebelcause.org">admin@rebelcause.org</a></li>
+</ul>
+</footer>
+</body>
+</html>
