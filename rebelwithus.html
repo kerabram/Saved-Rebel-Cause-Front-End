@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rebel With Us</title>
+    <link rel="stylesheet" href="/styles.css"/>
+    <script defer src="/scripts.js"></script>
+  </head>
+  <body>
+    <div class="signup-container">
+      <div class="title">Rebel With US</div>
+      <form>
+        <div class="form-grid">
+            <div class="form-row">
+          <label for="affliations">Affiliation</label>
+          <input
+            type="text"
+            placeholder="Organization/Group Name/Activists"
+            required
+          />
+          <select required>
+            <option value="">Type of Entity</option>
+            <option value="Activist">Activist</option>
+            <option value="Movement">Movement</option>
+            <option value="NGO">NGO"</option>
+            <option value="Community Organization">
+              Community Organization
+            </option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="alias">Alias</label>
+          <input type="text" placeholder="Alias" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="form-row">
+          <label for="location">Work Coverage Area</label>
+          <input type="text" placeholder="City, State"/>
+        </div>
+        <div class="form-row">
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password"/>
+        </div>
+        <div class="form-row">
+          <label for="confirmpass">Confirm Password</label>
+          <input type="password" placeholder="Confirm Password"/>
+        </div>
+          <button type="submit">Create Account</button>
+           <div class="alt-link">
+            Already have an account? <a href="#">Sign In</a>        
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
